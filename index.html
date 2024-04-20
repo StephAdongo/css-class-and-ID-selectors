@@ -2,12 +2,35 @@
 <html lang="en">
     <head>
         <title>css class and ID selectors</title>
+        <style type="text/css">
+            .one,
+            .five {
+                background-color: lightpink;
+                font-family: Verdana,sans-serif;
+                font-size: 18px;
+            }
+            .three{
+                background-color: lightpink;
+                font-family: Verdana,sans-serif;
+                font-size: 36px;
+            }
+
+            #two{
+             color: blue;
+             font-size: 36px;   
+            }
+            #four{
+                background-color: lightgreen;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            </style>
     </head>
     <body>
-        <p><div style="color:black; background-color: pink; font-size: 18px;font-style: sans-serif;">Number 1 -I`m a class!</div></p>
-        <p><div style="color: blue; background-color: white; font-size: 36px;">Number 2 -I`m one ID.</div></p>
-        <p><div style="color: black; background-color: pink; font-size: 24px;">Number 3 -I`m a class, but cooler!</div></p>
-        <p><div style="color:black; background-color: greenyellow; font-size: 24px; font-weight: bolder;">Number 4 -I`m another ID.</div></p>
-        <p><div style="color:black; background-color: pink; font-size: 18px;">Number 5 -I`m a class!</div></p>
+        <p class="one">Number 1 - I`m a class!</p>
+        <p id="two">Number 2 - I`m one ID.</p>
+        <p class="three">Number 3 - I`m a class, but cooler!</p>
+        <p id="four">Number 4 - I`m another ID.</p>
+        <p class="five">Number 5 - I`m a class!</p>
     </body>
 </html>
